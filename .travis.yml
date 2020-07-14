@@ -22,6 +22,8 @@
 language: c
 os: linux
 dist: bionic
+arch:
+  - ppc64le
 cache:
   directories:
   - $HOME/wolfssl-4.4.0-stable
